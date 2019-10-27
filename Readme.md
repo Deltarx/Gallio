@@ -34,3 +34,10 @@ npm start electron .
 ### test Command
 
 Change `init.html` to `test.html` in `init.js`. then run the Startup Command.
+
+### Error Codes (python Core)
+ - Error 100: System error/ Runtime Error
+ - Error 101: Python Version Is not upto date (A newer python version is needed to ensure stablity)
+ - Error 102: Module Warning (Module Stablity is unstable)
+ - Error 103: Module Cannot be found! (Module path may need to be verifed or try rebooting)
+ - Error 104: Module Error! (unkown erro has accured)
