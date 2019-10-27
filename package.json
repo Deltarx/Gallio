@@ -1,0 +1,19 @@
+{
+  "name": "unix",
+  "version": "0.0.1",
+  "description": "Mech systems",
+  "main": "init.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "unix"
+  ],
+  "repository": ".git",
+  "author": "Will Dugdale",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^6.0.12",
+    "node.js": "0.0.0"
+  }
+}

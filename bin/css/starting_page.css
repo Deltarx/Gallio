@@ -1,0 +1,94 @@
+:root{
+--Black: #060c06;
+--Grey: #212121;
+--Red: #911c11;
+--Creme: #eacaaa;
+--White: #fcfcfc;
+--Orange: #E25822;
+--Green: #42b883;
+--Yellow: #f7be16;
+--title:HINDENBURG;
+--Paragraph:Japan;
+--target:Sports Jersey;
+}
+.box-dol-black {border: 2px;
+        color: var(--Grey);
+        border-style: dashed;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin: 1em;
+        }
+.box-dol-red {border: 2px;
+        color: var(--Red);
+        border-style: dashed;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin: 1em;
+                }
+.box-ol-red {border: 2px;
+  color: var(--Red);
+  border-style: solid;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 1em;}
+
+.box-ol-black {border: 2px;
+    color: var(--Grey);
+    border-style: solid;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 1em;}
+
+.box-warn{border: 10px;
+  color: var(--Orange);
+  border-style: dashed;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 1em;}
+
+.box-danger {border: 10px;
+  color: var(--Red);
+  border-style: dashed;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 1em;}
+.box-green {border: 0px;
+          background-color: var(--Green);
+          padding-left: 1em;
+          padding-right: 1em;
+          margin: 1em;
+          }
+          .box-orange{border: 0px;
+                    background-color: var(--Orange);
+                    padding-left: 1em;
+                    padding-right: 1em;
+                    margin: 1em;
+                    }
+                    .box-red {border: 0px;
+                              background-color: var(--Red);
+                              padding-left: 1em;
+                              padding-right: 1em;
+                              margin: 1em;
+                              }
+                              .box-black {border: 0px;
+                                        background-color: var(--Black);
+                                        padding: 1em;
+                                        }
+                                        .box-yellow {border: 0px;
+                                                  background-color: var(--Yellow);
+                                                  padding: 1em;
+                                                  }
+body {background-color: var(--White);}
+.invert {color: var(--White)}
+.target {font-family: var(--target);
+    color: var(--Grey)}
+.title-font {font-family: var(--title);
+        color: var(--Grey);
+        padding: 0.1em;
+        letter-spacing: 0.1em;}
+        .title-font-invert {font-family: var(--title);
+                color: var(--White);
+                padding: 0.1em;
+                letter-spacing: 0.1em;}
+p {font-family: var(--Paragraph);
+                color: var(--Grey)}
