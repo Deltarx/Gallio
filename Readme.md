@@ -57,12 +57,16 @@ Main.py is the main program file. It uses ATI.py as a module manager and error h
      - error handler 
      - Main screen (terminal / cmd)
 
-#### management sys
+#### Scripting problems
 Since python cannot not have multi threaded processing there 
 * Opinion A: Run mathematics systems in c#.
 * Opinion B: Built a cluster computing unit.
 
 Opinion A may take long to code but can have multi thread processing, allow upto 6 scripts running at the same time.
 Opinion B is more technical challenging to make and maintain but will give a better system performance.
+
+#### Solid State Drive Core
+The mem Core is the most important part of the computing system as it acts as a black box in case of a fatal error.
+
 
     
