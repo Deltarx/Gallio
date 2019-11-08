@@ -1,4 +1,4 @@
-# Unix
+# ATI
 > Current version:
 0.0.1v
 
@@ -11,7 +11,7 @@ During test please restrict Coms and outbound Connection!
 ___
 
 ## File structure
- * Unix
+ * ATI
   * Bin
     - css (css files)
     - html (html files)
@@ -41,3 +41,28 @@ Change `init.html` to `test.html` in `init.js`. then run the Startup Command.
  - Error 102: Module Warning (Module Stablity is unstable)
  - Error 103: Module Cannot be found! (Module path may need to be verifed or try rebooting)
  - Error 104: Module Error! (unkown erro has accured)
+
+### Core
+#### subsystems 
+Main.py is the main program file. It uses ATI.py as a module manager and error handler.
+ * Main.py
+   * ATI.py
+     - datetime module
+     - os module 
+     - Ui module
+     - secert module
+     - math module
+     - numpy module
+     - sklearn module 
+     - error handler 
+     - Main screen (terminal / cmd)
+
+#### management sys
+Since python cannot not have multi threaded processing there 
+* Opinion A: Run mathematics systems in c#.
+* Opinion B: Built a cluster computing unit.
+
+Opinion A may take long to code but can have multi thread processing, allow upto 6 scripts running at the same time.
+Opinion B is more technical challenging to make and maintain but will give a better system performance.
+
+    
